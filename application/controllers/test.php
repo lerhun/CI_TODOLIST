@@ -8,6 +8,7 @@ class Test extends CI_Controller
         
         //  « Décommenter » cette ligne pour charger le helper url
         //$this->load->helper('url');
+        
     }
     
     public function index()
@@ -19,5 +20,6 @@ class Test extends CI_Controller
     {
         //  On inclut la vue ./application/views/test/accueil.php
         $this->load->view('test/accueil');
+
     }
 }
